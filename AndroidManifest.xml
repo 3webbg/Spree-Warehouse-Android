@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="17" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        
+        <activity
+            android:name=".orders.SpreeOrdersActivity"
+            android:theme="@style/AppTheme"  />
+        
+        <activity
+            android:name=".products.SpreeProductsActivity"
+            android:theme="@style/AppTheme"  />
+        
+        <activity
+            android:name=".settings.SpreeSettingsActivity"
+            android:theme="@style/AppTheme"  />
+        
     </application>
 
 </manifest>

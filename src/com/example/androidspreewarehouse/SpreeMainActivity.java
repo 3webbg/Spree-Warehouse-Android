@@ -9,7 +9,8 @@ public class SpreeMainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_spree_main);
+		setContentView(R.layout.activity_spree_fragment_holder);
+		
 	}
 
 	@Override
