@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="SpreeWareHouse" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextSpreeWareHouse</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewSpreeWareHouse</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxSpreeWareHouse</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonSpreeWareHouse</item>
+
+    <item name="android:buttonStyle">@style/ButtonSpreeWareHouse</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonSpreeWareHouse</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerSpreeWareHouse</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerSpreeWareHouse.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemSpreeWareHouse</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarSpreeWareHouse</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarSpreeWareHouse</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarSpreeWareHouse</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigSpreeWareHouse</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallSpreeWareHouse</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleSpreeWareHouse</item>
+
+    <item name="android:listViewStyle">@style/ListViewSpreeWareHouse</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewSpreeWareHouse.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemSpreeWareHouse</item>
+
+  </style>
+
+</resources>

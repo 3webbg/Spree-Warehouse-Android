@@ -16,21 +16,23 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "DataBaseHelper";
     private static Context context;
 	
-	public DatabaseHelper(Context context, String name, CursorFactory factory,
-			int version) {
+	public DatabaseHelper(Context context, String name, CursorFactory factory, int version) {
 		super(context, name, factory, version);
-		// TODO Auto-generated constructor stub
+
 	}
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-		// TODO Auto-generated method stub
-		
+		db.execSQL("CREATE TABLE user_data ( " +
+				"_id INTEGER PRIMARY KEY NOT NULL, " +
+				"server_name TEXT, " +
+				"user VARCHAR(30), " +
+				"api_key TEXT ");
 	}
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		// TODO Auto-generated method stub
+
 		
 	}
 

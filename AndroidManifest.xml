@@ -12,7 +12,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/SpreeWareHouse" >
         <activity
             android:name="com.example.androidspreewarehouse.SpreeMainActivity"
             android:label="@string/app_name" >
@@ -26,15 +26,15 @@
         
         <activity
             android:name=".orders.SpreeOrdersActivity"
-            android:theme="@style/AppTheme"  />
+            android:theme="@style/SpreeWareHouse"  />
         
         <activity
             android:name=".products.SpreeProductsActivity"
-            android:theme="@style/AppTheme"  />
+            android:theme="@style/SpreeWareHouse"  />
         
         <activity
             android:name=".settings.SpreeSettingsActivity"
-            android:theme="@style/AppTheme"  />
+            android:theme="@style/SpreeWareHouse"  />
         
     </application>
 
